@@ -1,0 +1,28 @@
+
+# IDE
+.idea/
+.vscode/
+
+# Go
+/vendor/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Build artifacts
+bin/
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
